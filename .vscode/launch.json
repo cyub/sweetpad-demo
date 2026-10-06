@@ -1,0 +1,11 @@
+{
+  // 使用 SweetPad 的构建服务器(需要 sweetpad CLI:`brew install sweetpad-dev/tap/sweetpad`)
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "sweetpad-lldb",
+      "request": "launch",
+      "name": "SweetPad: Build and Run"
+    }
+  ]
+}

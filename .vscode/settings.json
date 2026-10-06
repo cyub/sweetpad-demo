@@ -1,0 +1,9 @@
+{
+  "sweetpad.build.scheme": "FloatingBottomSheetsApp",
+  "sweetpad.xcodegen.autogenerate": true,
+  "sweetpad.hotReload.enabled": true,
+  "[swift]": {
+    "editor.defaultFormatter": "sweetpad.sweetpad",
+    "editor.formatOnSave": true
+  }
+}

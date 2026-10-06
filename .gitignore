@@ -1,0 +1,9 @@
+# .gitignore
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+.build/
+.DS_Store
+
+# SweetPad 自动生成,内含机器特定路径,首次构建时会重新生成
+buildServer.json

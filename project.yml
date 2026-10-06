@@ -1,0 +1,18 @@
+name: FloatingBottomSheetsApp
+options:
+  bundleIdPrefix: com.tink
+packages:
+  Inject:
+    url: https://github.com/krzysztofzablocki/Inject
+    from: 1.0.0
+targets:
+  FloatingBottomSheetsApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: FloatingBottomSheetsApp
+    dependencies:
+      - package: Inject
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
